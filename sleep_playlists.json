@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Lofi Sleep",
+    "colorName": "purple",
+    "icon": "moon.stars.fill",
+    "spotifyId": "spotify:playlist:53YSODrxL1tsZFFLf3fym4",
+    "appleMusicId": "pl.u-PDb40JgTeDbdJYG",
+    "youtubeId": "PLzIl52FhfQpx28YCeXr20Ix1mmT7O62U0"
+  },
+  {
+    "title": "Rain Sleep",
+    "colorName": "blue",
+    "icon": "cloud.rain.fill",
+    "spotifyId": "spotify:playlist:7eobcrbmQlyy6b1gVlBdoB",
+    "appleMusicId": "pl.u-Ymb09W0Sg85Jqd3",
+    "youtubeId": "PLzIl52FhfQpyXepd38ExfbbRXB3G1F0RB"
+  },
+  {
+    "title": "White Noise",
+    "colorName": "gray",
+    "icon": "waveform",
+    "spotifyId": "spotify:playlist:5MOp9rqTlaWcv8t5ECqskR",
+    "appleMusicId": "pl.u-6mo4lG3c8qNb4gW",
+    "youtubeId": "PLzIl52FhfQpxXE7mpW9kp0H8oA45c-6QG"
+  },
+  {
+    "title": "Relaxing Sleep",
+    "colorName": "indigo",
+    "icon": "music.note",
+    "spotifyId": "spotify:playlist:3o0rFnph6shzbhRD5pZkM8",
+    "appleMusicId": "pl.u-LdbqE75I2Gop5MN",
+    "youtubeId": "PLzIl52FhfQpwc3UvH8ZqL26VFrjwMBTBp"
+  }
+]
