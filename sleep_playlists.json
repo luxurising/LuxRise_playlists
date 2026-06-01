@@ -1,34 +1,46 @@
 [
   {
+    "id": "lofiSleep",
     "title": "Lofi Sleep",
+    "subtitle": "Lofi beats",
     "colorName": "purple",
     "icon": "moon.stars.fill",
     "spotifyId": "spotify:playlist:53YSODrxL1tsZFFLf3fym4",
     "appleMusicId": "pl.u-PDb40JgTeDbdJYG",
-    "youtubeId": "PLzIl52FhfQpx28YCeXr20Ix1mmT7O62U0"
+    "youtubeId": "PLzIl52FhfQpx28YCeXr20Ix1mmT7O62U0",
+    "sortOrder": 0
   },
   {
+    "id": "rainSleep",
     "title": "Rain Sleep",
+    "subtitle": "Nature sounds",
     "colorName": "blue",
     "icon": "cloud.rain.fill",
     "spotifyId": "spotify:playlist:7eobcrbmQlyy6b1gVlBdoB",
     "appleMusicId": "pl.u-Ymb09W0Sg85Jqd3",
-    "youtubeId": "PLzIl52FhfQpyXepd38ExfbbRXB3G1F0RB"
+    "youtubeId": "PLzIl52FhfQpyXepd38ExfbbRXB3G1F0RB",
+    "sortOrder": 1
   },
   {
+    "id": "whiteNoise",
     "title": "White Noise",
+    "subtitle": "Ambient",
     "colorName": "gray",
     "icon": "waveform",
     "spotifyId": "spotify:playlist:5MOp9rqTlaWcv8t5ECqskR",
     "appleMusicId": "pl.u-6mo4lG3c8qNb4gW",
-    "youtubeId": "PLzIl52FhfQpxXE7mpW9kp0H8oA45c-6QG"
+    "youtubeId": "PLzIl52FhfQpxXE7mpW9kp0H8oA45c-6QG",
+    "sortOrder": 2
   },
   {
+    "id": "relaxingSleep",
     "title": "Relaxing Sleep",
+    "subtitle": "Calm music",
     "colorName": "indigo",
     "icon": "music.note",
     "spotifyId": "spotify:playlist:3o0rFnph6shzbhRD5pZkM8",
     "appleMusicId": "pl.u-LdbqE75I2Gop5MN",
-    "youtubeId": "PLzIl52FhfQpwc3UvH8ZqL26VFrjwMBTBp"
+    "youtubeId": "PLzIl52FhfQpwc3UvH8ZqL26VFrjwMBTBp",
+    "sortOrder": 3
   }
 ]
