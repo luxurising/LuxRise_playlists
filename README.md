@@ -83,3 +83,18 @@ Live on every install's next cold launch.
 - **Remove:** delete the object. Any user who had it selected falls back to **Silence**.
 - **Rename display name:** change `title` only — leave `id` alone.
 - **Reorder:** change `sortOrder` values.
+
+## Cover art
+
+- Hosted in this repo under `covers/<id>.jpg`, referenced by each entry's `coverArtUrl`
+  via a `raw.githubusercontent.com/.../covers/<id>.jpg` URL.
+- **Square, ~1024×1024, logo-free.** Keep important content out of the **bottom ~30%** —
+  the app overlays the playlist title + subtitle there.
+- To swap a cover: replace `covers/<id>.jpg` (same filename) and push — no JSON change.
+  Image caching may delay it ~5 min; force it with a clean app reinstall.
+
+## Notes / ideas (not built yet)
+
+- **In-app "Request a playlist".** Idea to let users request sleep playlists from inside
+  LuxRise; once a request comes in, adding it here is a quick JSON edit. Design TBD — see
+  `plans/sleep-playlists-remote-content.md` in the app repo.
