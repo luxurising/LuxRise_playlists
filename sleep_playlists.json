@@ -1,14 +1,35 @@
 [
   {
-    "id": "lofiSleep",
-    "title": "Lofi Sleep",
-    "subtitle": "Lofi beats",
-    "colorName": "purple",
-    "icon": "moon.stars.fill",
-    "spotifyId": "spotify:playlist:53YSODrxL1tsZFFLf3fym4",
-    "appleMusicId": "pl.u-PDb40JgTeDbdJYG",
-    "youtubeId": "PLzIl52FhfQpx28YCeXr20Ix1mmT7O62U0",
+    "id": "relaxingSleep",
+    "title": "Relaxing Sleep",
+    "subtitle": "Calm music",
+    "colorName": "indigo",
+    "icon": "music.note",
+    "spotifyId": "spotify:playlist:3o0rFnph6shzbhRD5pZkM8",
+    "appleMusicId": "pl.u-LdbqE75I2Gop5MN",
+    "youtubeId": "PLzIl52FhfQpwc3UvH8ZqL26VFrjwMBTBp",
+    "coverArtUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8447fbfa1d4e138fbe928251e0",
     "sortOrder": 0
+  },
+  {
+    "id": "pianoSleep",
+    "title": "Piano Sleep",
+    "subtitle": "Peaceful piano",
+    "colorName": "teal",
+    "icon": "pianokeys",
+    "spotifyId": "spotify:playlist:0YJfBKPjBFmJluczHnqypM",
+    "coverArtUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846c92f05ebcf692b8016620b3",
+    "sortOrder": 1
+  },
+  {
+    "id": "healingSleep",
+    "title": "Healing Sleep",
+    "subtitle": "Calming frequencies",
+    "colorName": "green",
+    "icon": "sparkles",
+    "spotifyId": "spotify:playlist:1aImzw8x0bFiIorFHSEQOt",
+    "coverArtUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842e58c37d869500e0b9985e25",
+    "sortOrder": 2
   },
   {
     "id": "rainSleep",
@@ -19,7 +40,8 @@
     "spotifyId": "spotify:playlist:7eobcrbmQlyy6b1gVlBdoB",
     "appleMusicId": "pl.u-Ymb09W0Sg85Jqd3",
     "youtubeId": "PLzIl52FhfQpyXepd38ExfbbRXB3G1F0RB",
-    "sortOrder": 1
+    "coverArtUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da843eef2a3efe0c146b6ba4236a",
+    "sortOrder": 3
   },
   {
     "id": "whiteNoise",
@@ -30,17 +52,39 @@
     "spotifyId": "spotify:playlist:5MOp9rqTlaWcv8t5ECqskR",
     "appleMusicId": "pl.u-6mo4lG3c8qNb4gW",
     "youtubeId": "PLzIl52FhfQpxXE7mpW9kp0H8oA45c-6QG",
-    "sortOrder": 2
+    "coverArtUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848f8de2bb20f2057d723a2183",
+    "sortOrder": 4
   },
   {
-    "id": "relaxingSleep",
-    "title": "Relaxing Sleep",
-    "subtitle": "Calm music",
-    "colorName": "indigo",
-    "icon": "music.note",
-    "spotifyId": "spotify:playlist:3o0rFnph6shzbhRD5pZkM8",
-    "appleMusicId": "pl.u-LdbqE75I2Gop5MN",
-    "youtubeId": "PLzIl52FhfQpwc3UvH8ZqL26VFrjwMBTBp",
-    "sortOrder": 3
+    "id": "lofiSleep",
+    "title": "Lofi Sleep",
+    "subtitle": "Lofi beats",
+    "colorName": "purple",
+    "icon": "moon.stars.fill",
+    "spotifyId": "spotify:playlist:53YSODrxL1tsZFFLf3fym4",
+    "appleMusicId": "pl.u-PDb40JgTeDbdJYG",
+    "youtubeId": "PLzIl52FhfQpx28YCeXr20Ix1mmT7O62U0",
+    "coverArtUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84569bff2bc3666677cf09adbf",
+    "sortOrder": 5
+  },
+  {
+    "id": "jazzSleep",
+    "title": "Jazz Sleep",
+    "subtitle": "Smooth jazz",
+    "colorName": "orange",
+    "icon": "music.quarternote.3",
+    "spotifyId": "spotify:playlist:2tEasr440rosLDptCiF0pg",
+    "coverArtUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8455cf5e04761901c0e29af4ee",
+    "sortOrder": 6
+  },
+  {
+    "id": "babySleep",
+    "title": "Baby Sleep",
+    "subtitle": "Soothing lullabies",
+    "colorName": "red",
+    "icon": "figure.child",
+    "spotifyId": "spotify:playlist:3gQtm59rbVrXxlgEjJwUrY",
+    "coverArtUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e8027689c438546f5e03d1ee",
+    "sortOrder": 7
   }
 ]
