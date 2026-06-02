@@ -18,6 +18,7 @@
     "colorName": "teal",
     "icon": "pianokeys",
     "spotifyId": "spotify:playlist:0YJfBKPjBFmJluczHnqypM",
+    "appleMusicId": "pl.u-ZmblVDGIVeMjZb1",
     "coverArtUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846c92f05ebcf692b8016620b3",
     "sortOrder": 1
   },
@@ -28,6 +29,7 @@
     "colorName": "green",
     "icon": "sparkles",
     "spotifyId": "spotify:playlist:1aImzw8x0bFiIorFHSEQOt",
+    "appleMusicId": "pl.u-Ymb09Equg85Jqd3",
     "coverArtUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842e58c37d869500e0b9985e25",
     "sortOrder": 2
   },
@@ -74,6 +76,7 @@
     "colorName": "orange",
     "icon": "music.quarternote.3",
     "spotifyId": "spotify:playlist:2tEasr440rosLDptCiF0pg",
+    "appleMusicId": "pl.u-Ymb09EyFg85Jqd3",
     "coverArtUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8455cf5e04761901c0e29af4ee",
     "sortOrder": 6
   },
@@ -84,6 +87,7 @@
     "colorName": "red",
     "icon": "figure.child",
     "spotifyId": "spotify:playlist:3gQtm59rbVrXxlgEjJwUrY",
+    "appleMusicId": "pl.u-PDb40YpteDbdJYG",
     "coverArtUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e8027689c438546f5e03d1ee",
     "sortOrder": 7
   }
