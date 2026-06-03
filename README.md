@@ -25,7 +25,7 @@ display order.
 [
   {
     "id": "lofiSleep",
-    "title": "Lofi Sleep",
+    "title": "Lofi",
     "subtitle": "Lofi beats",
     "colorName": "purple",
     "icon": "moon.stars.fill",
@@ -33,7 +33,9 @@ display order.
     "appleMusicId": "pl.u-PDb40JgTeDbdJYG",
     "youtubeId": "PLzIl52FhfQpx28YCeXr20Ix1mmT7O62U0",
     "coverArtUrl": null,
-    "sortOrder": 0
+    "sortOrder": 0,
+    "titles":    { "en": "Lofi", "es": "Lofi", "fr": "Lofi", "de": "Lofi", "it": "Lofi", "pt-BR": "Lofi", "ja": "ローファイ", "ko": "로파이", "zh-Hans": "Lofi" },
+    "subtitles": { "en": "Lofi beats", "es": "Ritmos Lofi", "fr": "Beats Lofi", "de": "Lofi-Beats", "it": "Ritmi Lofi", "pt-BR": "Beats Lofi", "ja": "Lofiビート", "ko": "로파이 비트", "zh-Hans": "Lofi 节拍" }
   }
 ]
 ```
@@ -52,6 +54,8 @@ display order.
 | `youtubeId` | No | YouTube playlist ID. Currently unused by the app; safe to omit. |
 | `coverArtUrl` | No | Override artwork URL. Usually omit (`null`) — the app fetches real artwork from the connected service and caches it. |
 | `sortOrder` | No | Ascending integer for picker order (0 first). Omit → sorts last. Keep them unique. |
+| `titles` | No | **Localized display names**, keyed by language code (see [Localization](#localization)). Omit → the `title` field is shown to everyone. |
+| `subtitles` | No | **Localized descriptors**, keyed by language code. Omit → the `subtitle` field is shown to everyone. |
 
 > The **Silence** option is built into the app — don't add it here.
 
@@ -81,8 +85,42 @@ Live on every install's next cold launch.
 ## To remove / rename
 
 - **Remove:** delete the object. Any user who had it selected falls back to **Silence**.
-- **Rename display name:** change `title` only — leave `id` alone.
+- **Rename display name:** change `title` only — leave `id` alone. If the entry has a `titles` map, update `"en"` there too (and ideally the other languages).
 - **Reorder:** change `sortOrder` values.
+
+---
+
+## Localization
+
+Sleep-sound names are translated **here in the JSON** — no app update needed. Add a `titles`
+and/or `subtitles` object to an entry, keyed by language code:
+
+```json
+"titles":    { "en": "Rain", "es": "Lluvia", "fr": "Pluie", "de": "Regen", "it": "Pioggia", "pt-BR": "Chuva", "ja": "雨音", "ko": "빗소리", "zh-Hans": "雨声" },
+"subtitles": { "en": "Nature sounds", "es": "Sonidos de naturaleza", "fr": "Sons de la nature", "de": "Naturgeräusche", "it": "Suoni della natura", "pt-BR": "Natureza", "ja": "自然の音", "ko": "자연의 소리", "zh-Hans": "自然声" }
+```
+
+**Supported language codes** (must match exactly): `en`, `es`, `fr`, `de`, `it`, `pt-BR`,
+`ja`, `ko`, `zh-Hans`. (`en` matches the top-level `title`/`subtitle` — include it for clarity.)
+
+**How the app resolves a name** (`RemotePlaylist.displayTitle` / `displaySubtitle`):
+1. Tries the user's language, region-specific then base (e.g. `pt-BR` → `pt`).
+2. Falls back to `en` in the map.
+3. Falls back to the top-level `title` / `subtitle`.
+
+So every layer is optional and safe:
+- No `titles` map at all → everyone sees the English `title`. (Backward compatible — old
+  entries without these keys keep working.)
+- A map missing some languages → those users see English. **Partial translation never shows blanks.**
+
+**Keep them SHORT.** The picker tile is narrow — the title is one line, the subtitle a tiny
+line under it. Because the whole screen is *already* sleep sounds, the translated titles drop
+the redundant "Sleep" word and use just the distinctive term (`Rain` → `Pluie` / `Regen`
+/ `雨声`), not a literal "Sommeil…/…-Schlaf". Mirror that style for new sounds. Genre/loanwords
+(`Lofi`, `Jazz`, `Ambient`, `Piano`) stay as-is.
+
+> New translations are machine-generated and flagged for native review in the app project —
+> have a native speaker sanity-check before relying on them for a store launch.
 
 ## Cover art
 

@@ -1,7 +1,7 @@
 [
   {
     "id": "relaxingSleep",
-    "title": "Relaxing Sleep",
+    "title": "Relaxing",
     "subtitle": "Calm music",
     "colorName": "indigo",
     "icon": "music.note",
@@ -9,55 +9,165 @@
     "appleMusicId": "pl.u-LdbqE75I2Gop5MN",
     "youtubeId": "PLzIl52FhfQpwc3UvH8ZqL26VFrjwMBTBp",
     "coverArtUrl": "https://raw.githubusercontent.com/luxurising/LuxRise_playlists/refs/heads/main/covers/relaxingSleep.jpg",
-    "sortOrder": 0
+    "sortOrder": 0,
+    "titles": {
+      "en": "Relaxing",
+      "es": "Relajante",
+      "fr": "Relaxant",
+      "de": "Entspannung",
+      "it": "Rilassante",
+      "pt-BR": "Relaxante",
+      "ja": "リラックス",
+      "ko": "편안한 휴식",
+      "zh-Hans": "舒缓"
+    },
+    "subtitles": {
+      "en": "Calm music",
+      "es": "Música tranquila",
+      "fr": "Musique calme",
+      "de": "Ruhige Musik",
+      "it": "Musica calma",
+      "pt-BR": "Música calma",
+      "ja": "穏やかな音楽",
+      "ko": "차분한 음악",
+      "zh-Hans": "舒缓音乐"
+    }
   },
   {
     "id": "pianoSleep",
-    "title": "Piano Sleep",
+    "title": "Piano",
     "subtitle": "Peaceful piano",
     "colorName": "teal",
     "icon": "pianokeys",
     "spotifyId": "spotify:playlist:0YJfBKPjBFmJluczHnqypM",
     "appleMusicId": "pl.u-ZmblVDGIVeMjZb1",
     "coverArtUrl": "https://raw.githubusercontent.com/luxurising/LuxRise_playlists/refs/heads/main/covers/pianoSleep.jpg",
-    "sortOrder": 1
+    "sortOrder": 1,
+    "titles": {
+      "en": "Piano",
+      "es": "Piano",
+      "fr": "Piano",
+      "de": "Klavier",
+      "it": "Piano",
+      "pt-BR": "Piano",
+      "ja": "ピアノ",
+      "ko": "피아노",
+      "zh-Hans": "钢琴"
+    },
+    "subtitles": {
+      "en": "Peaceful piano",
+      "es": "Piano relajante",
+      "fr": "Piano paisible",
+      "de": "Sanftes Klavier",
+      "it": "Piano rilassante",
+      "pt-BR": "Piano tranquilo",
+      "ja": "穏やかなピアノ",
+      "ko": "평화로운 피아노",
+      "zh-Hans": "宁静钢琴"
+    }
   },
   {
     "id": "babySleep",
-    "title": "Baby Sleep",
+    "title": "Baby",
     "subtitle": "Soothing lullabies",
     "colorName": "red",
     "icon": "figure.child",
     "spotifyId": "spotify:playlist:3gQtm59rbVrXxlgEjJwUrY",
     "appleMusicId": "pl.u-PDb40YpteDbdJYG",
     "coverArtUrl": "https://raw.githubusercontent.com/luxurising/LuxRise_playlists/refs/heads/main/covers/babySleep.jpg",
-    "sortOrder": 2
+    "sortOrder": 2,
+    "titles": {
+      "en": "Baby",
+      "es": "Bebés",
+      "fr": "Bébé",
+      "de": "Baby",
+      "it": "Bebè",
+      "pt-BR": "Bebê",
+      "ja": "赤ちゃん",
+      "ko": "아기",
+      "zh-Hans": "哄睡"
+    },
+    "subtitles": {
+      "en": "Soothing lullabies",
+      "es": "Nanas relajantes",
+      "fr": "Berceuses apaisantes",
+      "de": "Schlaflieder",
+      "it": "Ninne nanne rilassanti",
+      "pt-BR": "Canções de ninar",
+      "ja": "心地よい子守唄",
+      "ko": "편안한 자장가",
+      "zh-Hans": "舒缓摇篮曲"
+    }
   },
   {
     "id": "healingSleep",
-    "title": "Healing Sleep",
+    "title": "Healing",
     "subtitle": "Calming frequencies",
     "colorName": "green",
     "icon": "sparkles",
     "spotifyId": "spotify:playlist:1aImzw8x0bFiIorFHSEQOt",
     "appleMusicId": "pl.u-Ymb09Equg85Jqd3",
     "coverArtUrl": "https://raw.githubusercontent.com/luxurising/LuxRise_playlists/refs/heads/main/covers/healingSleep.jpg",
-    "sortOrder": 3
+    "sortOrder": 3,
+    "titles": {
+      "en": "Healing",
+      "es": "Reparador",
+      "fr": "Réparateur",
+      "de": "Heilsam",
+      "it": "Rigenerante",
+      "pt-BR": "Reparador",
+      "ja": "癒し",
+      "ko": "힐링",
+      "zh-Hans": "疗愈"
+    },
+    "subtitles": {
+      "en": "Calming frequencies",
+      "es": "Frecuencias relajantes",
+      "fr": "Fréquences apaisantes",
+      "de": "Frequenzen",
+      "it": "Frequenze rilassanti",
+      "pt-BR": "Frequências calmantes",
+      "ja": "癒しの周波数",
+      "ko": "진정 주파수",
+      "zh-Hans": "舒缓频率"
+    }
   },
   {
     "id": "jazzSleep",
-    "title": "Jazz Sleep",
+    "title": "Jazz",
     "subtitle": "Smooth jazz",
     "colorName": "orange",
     "icon": "music.quarternote.3",
     "spotifyId": "spotify:playlist:2tEasr440rosLDptCiF0pg",
     "appleMusicId": "pl.u-Ymb09EyFg85Jqd3",
     "coverArtUrl": "https://raw.githubusercontent.com/luxurising/LuxRise_playlists/refs/heads/main/covers/jazzSleep.jpg",
-    "sortOrder": 4
+    "sortOrder": 4,
+    "titles": {
+      "en": "Jazz",
+      "es": "Jazz",
+      "fr": "Jazz",
+      "de": "Jazz",
+      "it": "Jazz",
+      "pt-BR": "Jazz",
+      "ja": "ジャズ",
+      "ko": "재즈",
+      "zh-Hans": "爵士"
+    },
+    "subtitles": {
+      "en": "Smooth jazz",
+      "es": "Jazz suave",
+      "fr": "Jazz doux",
+      "de": "Sanfter Jazz",
+      "it": "Smooth jazz",
+      "pt-BR": "Jazz suave",
+      "ja": "スムースジャズ",
+      "ko": "부드러운 재즈",
+      "zh-Hans": "轻爵士"
+    }
   },
   {
     "id": "lofiSleep",
-    "title": "Lofi Sleep",
+    "title": "Lofi",
     "subtitle": "Lofi beats",
     "colorName": "purple",
     "icon": "moon.stars.fill",
@@ -65,11 +175,33 @@
     "appleMusicId": "pl.u-PDb40JgTeDbdJYG",
     "youtubeId": "PLzIl52FhfQpx28YCeXr20Ix1mmT7O62U0",
     "coverArtUrl": "https://raw.githubusercontent.com/luxurising/LuxRise_playlists/refs/heads/main/covers/lofiSleep.jpg",
-    "sortOrder": 5
+    "sortOrder": 5,
+    "titles": {
+      "en": "Lofi",
+      "es": "Lofi",
+      "fr": "Lofi",
+      "de": "Lofi",
+      "it": "Lofi",
+      "pt-BR": "Lofi",
+      "ja": "ローファイ",
+      "ko": "로파이",
+      "zh-Hans": "Lofi"
+    },
+    "subtitles": {
+      "en": "Lofi beats",
+      "es": "Ritmos Lofi",
+      "fr": "Beats Lofi",
+      "de": "Lofi-Beats",
+      "it": "Ritmi Lofi",
+      "pt-BR": "Beats Lofi",
+      "ja": "Lofiビート",
+      "ko": "로파이 비트",
+      "zh-Hans": "Lofi 节拍"
+    }
   },
   {
     "id": "rainSleep",
-    "title": "Rain Sleep",
+    "title": "Rain",
     "subtitle": "Nature sounds",
     "colorName": "blue",
     "icon": "cloud.rain.fill",
@@ -77,7 +209,29 @@
     "appleMusicId": "pl.u-Ymb09W0Sg85Jqd3",
     "youtubeId": "PLzIl52FhfQpyXepd38ExfbbRXB3G1F0RB",
     "coverArtUrl": "https://raw.githubusercontent.com/luxurising/LuxRise_playlists/refs/heads/main/covers/rainSleep.jpg",
-    "sortOrder": 6
+    "sortOrder": 6,
+    "titles": {
+      "en": "Rain",
+      "es": "Lluvia",
+      "fr": "Pluie",
+      "de": "Regen",
+      "it": "Pioggia",
+      "pt-BR": "Chuva",
+      "ja": "雨音",
+      "ko": "빗소리",
+      "zh-Hans": "雨声"
+    },
+    "subtitles": {
+      "en": "Nature sounds",
+      "es": "Sonidos de naturaleza",
+      "fr": "Sons de la nature",
+      "de": "Naturgeräusche",
+      "it": "Suoni della natura",
+      "pt-BR": "Natureza",
+      "ja": "自然の音",
+      "ko": "자연의 소리",
+      "zh-Hans": "自然声"
+    }
   },
   {
     "id": "whiteNoise",
@@ -89,6 +243,28 @@
     "appleMusicId": "pl.u-6mo4lG3c8qNb4gW",
     "youtubeId": "PLzIl52FhfQpxXE7mpW9kp0H8oA45c-6QG",
     "coverArtUrl": "https://raw.githubusercontent.com/luxurising/LuxRise_playlists/refs/heads/main/covers/whiteNoise.jpg",
-    "sortOrder": 7
+    "sortOrder": 7,
+    "titles": {
+      "en": "White Noise",
+      "es": "Ruido blanco",
+      "fr": "Bruit blanc",
+      "de": "Weißes Rauschen",
+      "it": "Rumore bianco",
+      "pt-BR": "Ruído branco",
+      "ja": "ホワイトノイズ",
+      "ko": "백색소음",
+      "zh-Hans": "白噪音"
+    },
+    "subtitles": {
+      "en": "Ambient",
+      "es": "Ambiental",
+      "fr": "Ambiant",
+      "de": "Ambient",
+      "it": "Ambient",
+      "pt-BR": "Ambiente",
+      "ja": "アンビエント",
+      "ko": "앰비언트",
+      "zh-Hans": "氛围音乐"
+    }
   }
 ]
