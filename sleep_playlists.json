@@ -266,5 +266,71 @@
       "ko": "앰비언트",
       "zh-Hans": "氛围音乐"
     }
+  },
+  {
+    "id": "handpanSleep",
+    "title": "Handpan",
+    "subtitle": "Hang drum music",
+    "colorName": "orange",
+    "icon": "circle.hexagongrid.fill",
+    "spotifyId": "spotify:playlist:7MIR2HmAJ44aHv8arJs9qZ",
+    "appleMusicId": "pl.u-PDb40o6teDbdJYG",
+    "coverArtUrl": "https://raw.githubusercontent.com/luxurising/LuxRise_playlists/refs/heads/main/covers/handpanSleep.jpg",
+    "sortOrder": 8,
+    "titles": {
+      "en": "Handpan",
+      "es": "Handpan",
+      "fr": "Handpan",
+      "de": "Handpan",
+      "it": "Handpan",
+      "pt-BR": "Handpan",
+      "ja": "ハンドパン",
+      "ko": "핸드팬",
+      "zh-Hans": "手碟"
+    },
+    "subtitles": {
+      "en": "Hang drum music",
+      "es": "Música hang drum",
+      "fr": "Musique hang drum",
+      "de": "Hang-Drum-Musik",
+      "it": "Musica hang drum",
+      "pt-BR": "Música hang drum",
+      "ja": "ハングドラム",
+      "ko": "행드럼 음악",
+      "zh-Hans": "手碟音乐"
+    }
+  },
+  {
+    "id": "videogameSleep",
+    "title": "Video Game",
+    "subtitle": "Game soundtracks",
+    "colorName": "purple",
+    "icon": "gamecontroller.fill",
+    "spotifyId": "spotify:playlist:591PkgftZqoIeuervrSWlo",
+    "appleMusicId": "pl.u-Ymb09ogTg85Jqd3",
+    "coverArtUrl": "https://raw.githubusercontent.com/luxurising/LuxRise_playlists/refs/heads/main/covers/videogameSleep.jpg",
+    "sortOrder": 9,
+    "titles": {
+      "en": "Video Game",
+      "es": "Videojuegos",
+      "fr": "Jeux vidéo",
+      "de": "Videospiele",
+      "it": "Videogiochi",
+      "pt-BR": "Videogames",
+      "ja": "ゲーム音楽",
+      "ko": "게임 음악",
+      "zh-Hans": "游戏音乐"
+    },
+    "subtitles": {
+      "en": "Game soundtracks",
+      "es": "Bandas sonoras",
+      "fr": "Musiques de jeux",
+      "de": "Game-Soundtracks",
+      "it": "Colonne sonore",
+      "pt-BR": "Trilhas de jogos",
+      "ja": "ゲームサントラ",
+      "ko": "게임 OST",
+      "zh-Hans": "游戏原声"
+    }
   }
 ]

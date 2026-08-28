@@ -59,6 +59,10 @@ display order.
 
 > The **Silence** option is built into the app — don't add it here.
 
+> `title`/`subtitle` here are the **in-app** copy: short, one canonical search phrase, sized
+> for a narrow tile (they also render on the luxrise.io homepage marquee). The **Spotify /
+> Apple Music** listing copy is longer and lives in [`PLATFORM_COPY.md`](PLATFORM_COPY.md).
+
 ---
 
 ## How to add a playlist
@@ -81,6 +85,11 @@ display order.
    ```
 
 Live on every install's next cold launch.
+
+7. **Record the platform copy.** The Spotify / Apple Music playlist title + description are a
+   *separate*, longer, keyword-dense layer — they are not the `title`/`subtitle` above. Paste
+   them into [`PLATFORM_COPY.md`](PLATFORM_COPY.md) so the wording lives somewhere other than
+   a web form.
 
 ## To remove / rename
 
