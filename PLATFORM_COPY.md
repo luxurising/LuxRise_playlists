@@ -67,8 +67,9 @@ Fall asleep to soothing rain sounds with gentle rainfall, thunderstorms, and rai
 Experience uninterrupted sleep with pure white noise designed to mask unwanted sounds. Features white, pink, and brown noise variations proven to help with insomnia and focus. Perfect for light sleepers, babies, and noise-sensitive individuals. Creates consistent sound for deeper, longer sleep.
 
 ### Piano
-> **MISSING** — `pianoSleep` is live in the app and on the website, but its platform copy was
-> never recorded here. Paste it in from the Spotify editor, or write it to the house style.
+**Piano Sleep - Peaceful Piano Music for Deep Sleep & Relaxation**
+
+Fall asleep to gentle piano melodies crafted for deep sleep, relaxation, and stress relief. Soft instrumental piano music creates a calming atmosphere perfect for bedtime, meditation, reading, or unwinding after a long day. Peaceful sounds to help you sleep deeply and wake refreshed.
 
 ### Handpan
 **Handpan Sleep - Healing Hang Drum Music for Deep Sleep & Meditation**
